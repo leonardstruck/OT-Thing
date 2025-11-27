@@ -266,7 +266,7 @@ class OTValueSlaveConfigMember: public OTValueFlags {
 private:
     void getValue(JsonObject &obj) const;
     const Flag flags[6] PROGMEM = {
-        {8, "dhw_present",              "DHW presemt",              nullptr},
+        {8, "dhw_present",              "DHW present",              nullptr},
         {9, "ctrl_type",                "Control type on/off",      nullptr},
         {10, "cooling_config",          "Cooling supported",        nullptr},
         {11, "dhw_config",              "DHW storage",              nullptr},
